@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+	font-family: freight-text-pro,serif;
+font-weight: 400;
+font-style: normal;
+	background-color: #FFFFFF;
+}
+h1, h2, h3, h4, strong, figcaption {
+	font-family: freight-text-pro,serif;
+font-weight: 700;
+font-style: normal;
+}
+.bg-light {
+	background-color: #E0E9EE !important;
+}
+footer {
+	background-color: #8697A6;
+}
+a {
+	color: #45CBE5;
+}
+a:hover {
+	color: #C3DEEB;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, strong {
+	color: #005566;
+}
+.nav-link:hover, .nav-link:focus {
+	color: #128BA6 !important;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .active > .nav-link, .nav-link.show, .nav-link.active {
+	color: #005566 !important;
+}
+.nav ul {
+	margin-right: auto;
+}
+header .container {
+position: relative;
+}
+header .container h1 {
+position: absolute;
+bottom: 5px;
+left: 30px;
+width: 100%;
+padding: 20px 10px;
+color: #fff;
+margin: 0;
+text-shadow: 0 1px 0 black;
+}
+.foot {
+	color: #C3DEEB;
+}
+.phone {
+	font-weight: 700;
+}
+legend {
+	font-size: 16px;
+}
